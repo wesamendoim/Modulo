@@ -1,9 +1,7 @@
-# import funcao
+from funcao import find_index
 
-# funcao.somar()
-# funcao.multi()
+list1 = ['a', 'b', 'c', 'd', 'e']
 
-from funcao import somar, multi
-from items.cadastro import cliente
+var1 = find_index(list1, 'w')
+print(var1)
 
-cliente()
